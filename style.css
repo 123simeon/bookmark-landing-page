@@ -385,6 +385,7 @@ body{
     .ul-btn-wrapper{
         flex-direction: column;
         gap: 2rem;
+        margin-right: auto;
     }
 
     .book-mark-logo{
@@ -393,6 +394,7 @@ body{
     }
 
     .nav-items{
+        flex-direction: column;
         gap: 3rem;
         font-weight: 600;
         font-size: 0.8rem;
@@ -409,7 +411,7 @@ body{
     .manager-section{
         flex-direction: column-reverse;
         width: 500px;  
-        margin: 40% -1% 0% 10%;
+        margin: 40% 0% 0% 0%;
         gap: 10rem;
     }       
     
@@ -452,7 +454,7 @@ body{
 
     .features-section{
         width: 80vw;
-        margin:5% 0% 0 20%;
+        margin:5% 0% 0 0%;
     }
 
     .features-intro-p, .features-qualities, .dowmload-intro-p, .question-sect-intro-p, .click-p{
@@ -463,12 +465,16 @@ body{
     .features-intro-header, .click-h1, .download-intro-h, .question-sect-intro-h1 {
         font-size: 2rem;
     }
+
+    .features-intro-p{
+        margin-left: 10%;
+    }
     
     .features-qualities{
         flex-direction: column;
         width: 200px;
-        margin: auto;
         text-align: center;
+        margin-left: 30%;
     }
 
     .click-section{
@@ -491,8 +497,14 @@ body{
     .illustration-image-2{
         width: 70vw;
         height: 50vh;
-        left: 28vw ;
+        left: 15vw ;
         top: -10vh;
+    }
+
+    .click-section-text{
+        width: 70vw;
+        margin-right: auto;
+        margin-left: 10%;
     }
 
     .click-p{
@@ -502,12 +514,13 @@ body{
     }
 
     .download-section{
-        margin: 20vh 0 200vh 20%;
+        margin: 20vh 0 235vh 10%;
         width: 80vw;    
     }
 
     .browser-wrapper{
-        width: 50vw; 
+        width: 50vw;
+        height: 60vh; 
     }
 
     .browser-image{
@@ -521,18 +534,18 @@ body{
     }
 
     .browser-2{
-        top: 60vh;
+        top: 75vh;
         left: 10vw;
     }
 
     .browser-3{
-        top: 120vh;
+        top: 150vh;
         left: 10vw;
     }
 
     .questions-section{
         width: 60vw;
-        margin-left: 30vw;
+        margin: auto;
     }
 
     .questions-wrapper{
