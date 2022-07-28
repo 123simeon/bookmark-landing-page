@@ -75,7 +75,7 @@ body{
 /* manager section */
 
 .manager-section{
-    margin: 50% -1% 0% 10%;
+    margin: 20% -1% 0% 10%;
     gap: 10rem;
     position: relative; 
 }
@@ -96,7 +96,8 @@ body{
 }
 
 .manager-section-text{
-    margin-top: -12vh;
+    margin-top: -20vh;
+    position: absolute;
 }
 
 .manager-h1{
@@ -140,7 +141,7 @@ body{
 /* features section */
 
 .features-section{
-    width: 35vw;
+    width: 40vw;
     margin-top: 20vh;
 }
 
@@ -411,7 +412,7 @@ body{
     .manager-section{
         flex-direction: column-reverse;
         width: 500px;  
-        margin: 100vh 0% 0% 0%;
+        margin: 150vh 0% 0% 0%;
         padding-right: 20%;
         gap: 5rem;
     }       
@@ -419,6 +420,8 @@ body{
 
     .manager-section-text{
         text-align: center;
+        left: 5vw;
+        top: -50vh;
     }
 
     .manager-p{
@@ -442,7 +445,7 @@ body{
     .illustration-image{
         width: 80vw;
         height: 60vh;
-        top: -75vh;
+        top: -130vh;
         left: 10vw; 
     }
 
